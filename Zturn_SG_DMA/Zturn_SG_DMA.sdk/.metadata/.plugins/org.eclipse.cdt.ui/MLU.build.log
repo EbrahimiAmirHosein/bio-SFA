@@ -1,0 +1,8 @@
+19:50:49 **** Incremental Build of configuration Debug for project MLU ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.
+
+19:50:49 Build Finished (took 207ms)
+

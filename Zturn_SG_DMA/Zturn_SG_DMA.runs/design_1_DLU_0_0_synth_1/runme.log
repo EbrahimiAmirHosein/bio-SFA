@@ -1,0 +1,1382 @@
+
+*** Running vivado
+    with args -log design_1_DLU_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_DLU_0_0.tcl
+
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source design_1_DLU_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/MLU/HLS_SampleGn/solution1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top design_1_DLU_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9436 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 748.148 ; gain = 179.316
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_DLU_0_0' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ip/design_1_DLU_0_0/synth/design_1_DLU_0_0.vhd:99]
+	Parameter C_S_AXI_CRTL_BUS_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_CRTL_BUS_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:12' bound to instance 'U0' of component 'DLU' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ip/design_1_DLU_0_0/synth/design_1_DLU_0_0.vhd:204]
+INFO: [Synth 8-638] synthesizing module 'DLU' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:58]
+	Parameter C_S_AXI_CRTL_BUS_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_CRTL_BUS_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:369]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:372]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:498]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:500]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:502]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:505]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:509]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:512]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:514]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:516]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:518]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:520]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:523]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:525]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:527]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:529]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:534]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:536]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:538]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:540]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:542]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:550]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:552]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:554]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:558]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:562]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:564]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:566]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:568]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:570]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:572]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:574]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:576]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:578]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:580]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:582]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:584]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:586]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:588]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:590]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:592]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:594]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:596]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:600]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:602]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:605]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:608]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:610]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:612]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:614]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:616]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:618]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:620]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:622]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:624]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:626]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:628]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:630]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:632]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:635]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:639]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:641]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:706]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:710]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:715]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:717]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:721]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:723]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:727]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:729]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:734]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:737]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:739]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:744]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:747]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:749]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:753]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:755]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:759]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:761]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:765]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:767]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:770]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:774]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:777]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:779]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:783]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:786]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:789]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:824]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:840]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:846]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:850]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:861]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:864]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:866]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:868]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:870]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:872]
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "none" *) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:874]
+INFO: [Common 17-14] Message 'Synth 8-5534' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 14 - type: integer 
+	Parameter AddressWidth bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_W' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_W.vhd:116' bound to instance 'W_U' of component 'DLU_W' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1135]
+INFO: [Synth 8-638] synthesizing module 'DLU_W' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_W.vhd:136]
+	Parameter DataWidth bound to: 32 - type: integer 
+	Parameter AddressRange bound to: 14 - type: integer 
+	Parameter AddressWidth bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_W_ram' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_W.vhd:10' bound to instance 'DLU_W_ram_U' of component 'DLU_W_ram' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_W.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'DLU_W_ram' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_W.vhd:33]
+	Parameter MEM_TYPE bound to: block - type: string 
+	Parameter DWIDTH bound to: 32 - type: integer 
+	Parameter AWIDTH bound to: 4 - type: integer 
+	Parameter MEM_SIZE bound to: 14 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DLU_W_ram' (1#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_W.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'DLU_W' (2#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_W.vhd:136]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_CRTL_BUS_s_axi' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_CRTL_BUS_s_axi.vhd:9' bound to instance 'DLU_CRTL_BUS_s_axi_U' of component 'DLU_CRTL_BUS_s_axi' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1154]
+INFO: [Synth 8-638] synthesizing module 'DLU_CRTL_BUS_s_axi' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_CRTL_BUS_s_axi.vhd:70]
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'DLU_CRTL_BUS_s_axi' (3#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_CRTL_BUS_s_axi.vhd:70]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U1' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1187]
+INFO: [Synth 8-638] synthesizing module 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:27]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_ap_faddfsub_3_full_dsp_32' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_faddfsub_3_full_dsp_32.vhd:59' bound to instance 'DLU_ap_faddfsub_3_full_dsp_32_u' of component 'DLU_ap_faddfsub_3_full_dsp_32' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'DLU_ap_faddfsub_3_full_dsp_32' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_faddfsub_3_full_dsp_32.vhd:74]
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_HAS_ADD bound to: 1 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 1 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 3 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 2 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 1 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_faddfsub_3_full_dsp_32.vhd:215]
+INFO: [Synth 8-256] done synthesizing module 'DLU_ap_faddfsub_3_full_dsp_32' (21#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_faddfsub_3_full_dsp_32.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'DLU_faddfsub_32nsbkb' (22#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:27]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U2' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1203]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U3' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1219]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U4' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1235]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U5' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1251]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U6' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1267]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U7' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1283]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U8' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1299]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U9' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1315]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U10' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1331]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U11' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1347]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U12' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1363]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U13' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1379]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 5 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_faddfsub_32nsbkb' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_faddfsub_32nsbkb.vhd:8' bound to instance 'DLU_faddfsub_32nsbkb_U14' of component 'DLU_faddfsub_32nsbkb' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1395]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U15' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1411]
+INFO: [Synth 8-638] synthesizing module 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:26]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_ap_fmul_2_max_dsp_32' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_fmul_2_max_dsp_32.vhd:59' bound to instance 'DLU_ap_fmul_2_max_dsp_32_u' of component 'DLU_ap_fmul_2_max_dsp_32' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'DLU_ap_fmul_2_max_dsp_32' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_fmul_2_max_dsp_32.vhd:72]
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 1 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 2 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 3 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_fmul_2_max_dsp_32.vhd:210]
+INFO: [Synth 8-256] done synthesizing module 'DLU_ap_fmul_2_max_dsp_32' (30#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_fmul_2_max_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'DLU_fmul_32ns_32ncud' (31#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:26]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U16' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1426]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U17' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1441]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U18' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1456]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U19' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1471]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U20' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1486]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U21' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1501]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U22' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1516]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U23' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1531]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U24' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1546]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U25' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1561]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U26' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1576]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U27' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1591]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U28' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1606]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U29' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1621]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U30' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1636]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U31' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1651]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U32' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1666]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U33' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1681]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U34' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1696]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U35' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1711]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U36' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1726]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U37' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1741]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U38' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1756]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U39' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1771]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U40' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1786]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U41' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1801]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U42' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1816]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 4 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fmul_32ns_32ncud' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:8' bound to instance 'DLU_fmul_32ns_32ncud_U43' of component 'DLU_fmul_32ns_32ncud' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1831]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 16 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_fdiv_32ns_32ndEe' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fdiv_32ns_32ndEe.vhd:8' bound to instance 'DLU_fdiv_32ns_32ndEe_U44' of component 'DLU_fdiv_32ns_32ndEe' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1846]
+INFO: [Synth 8-638] synthesizing module 'DLU_fdiv_32ns_32ndEe' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fdiv_32ns_32ndEe.vhd:26]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 16 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter din1_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_ap_fdiv_14_no_dsp_32' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_fdiv_14_no_dsp_32.vhd:59' bound to instance 'DLU_ap_fdiv_14_no_dsp_32_u' of component 'DLU_ap_fdiv_14_no_dsp_32' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fdiv_32ns_32ndEe.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'DLU_ap_fdiv_14_no_dsp_32' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_fdiv_14_no_dsp_32.vhd:72]
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 1 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 14 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_fdiv_14_no_dsp_32.vhd:210]
+INFO: [Synth 8-256] done synthesizing module 'DLU_ap_fdiv_14_no_dsp_32' (38#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_fdiv_14_no_dsp_32.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'DLU_fdiv_32ns_32ndEe' (39#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fdiv_32ns_32ndEe.vhd:26]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 6 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_sitofp_32ns_3eOg' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_sitofp_32ns_3eOg.vhd:8' bound to instance 'DLU_sitofp_32ns_3eOg_U45' of component 'DLU_sitofp_32ns_3eOg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:1861]
+INFO: [Synth 8-638] synthesizing module 'DLU_sitofp_32ns_3eOg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_sitofp_32ns_3eOg.vhd:24]
+	Parameter ID bound to: 1 - type: integer 
+	Parameter NUM_STAGE bound to: 6 - type: integer 
+	Parameter din0_WIDTH bound to: 32 - type: integer 
+	Parameter dout_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'DLU_ap_sitofp_4_no_dsp_32' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_sitofp_4_no_dsp_32.vhd:59' bound to instance 'DLU_ap_sitofp_4_no_dsp_32_u' of component 'DLU_ap_sitofp_4_no_dsp_32' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_sitofp_32ns_3eOg.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'DLU_ap_sitofp_4_no_dsp_32' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_sitofp_4_no_dsp_32.vhd:70]
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 1 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_SUB bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_UNFUSED_MULTIPLY_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_PRIMITIVE_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_B_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_C_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 0 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 24 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 4 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 1 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 0 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_8' declared at 'd:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/83a3/hdl/floating_point_v7_1_vh_rfs.vhd:94214' bound to instance 'U0' of component 'floating_point_v7_1_8' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_sitofp_4_no_dsp_32.vhd:205]
+INFO: [Synth 8-256] done synthesizing module 'DLU_ap_sitofp_4_no_dsp_32' (46#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/ip/DLU_ap_sitofp_4_no_dsp_32.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'DLU_sitofp_32ns_3eOg' (47#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_sitofp_32ns_3eOg.vhd:24]
+WARNING: [Synth 8-6014] Unused sequential element outStream_V_dest_V_1_sel_rd_reg was removed.  [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:2010]
+WARNING: [Synth 8-6014] Unused sequential element outStream_V_id_V_1_sel_rd_reg was removed.  [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:2044]
+WARNING: [Synth 8-6014] Unused sequential element outStream_V_keep_V_1_sel_rd_reg was removed.  [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:2078]
+WARNING: [Synth 8-6014] Unused sequential element outStream_V_strb_V_1_sel_rd_reg was removed.  [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:2160]
+WARNING: [Synth 8-6014] Unused sequential element outStream_V_user_V_1_sel_rd_reg was removed.  [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:2194]
+INFO: [Synth 8-256] done synthesizing module 'DLU' (48#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'design_1_DLU_0_0' (49#1) [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ip/design_1_DLU_0_0/synth/design_1_DLU_0_0.vhd:99]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized31 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized31 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized31 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized17 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized47 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized47 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized47 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized47 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized47 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized3 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized106 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized106 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized106 has unconnected port SINIT
+WARNING: [Synth 8-3331] design norm_zero_det has unconnected port DATA[6]
+WARNING: [Synth 8-3331] design norm_zero_det has unconnected port DIST[7]
+WARNING: [Synth 8-3331] design norm_zero_det has unconnected port DIST[6]
+WARNING: [Synth 8-3331] design norm_zero_det has unconnected port DIST[5]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized102 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized102 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized102 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized102 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized102 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized104 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized104 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized104 has unconnected port SINIT
+WARNING: [Synth 8-3331] design carry_chain__parameterized12 has unconnected port B[31]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design flt_dec_op__parameterized0 has unconnected port DIVIDE_BY_ZERO_IN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized108 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized108 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized108 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized43 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized43 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized43 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized43 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized43 has unconnected port SINIT
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[30]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[29]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[28]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[27]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[26]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[25]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[24]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[23]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[22]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[21]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[20]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[19]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[18]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[17]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[16]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[15]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[14]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[13]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[12]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[11]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[10]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[9]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[8]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[7]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[6]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[5]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[4]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[3]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[2]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[1]
+WARNING: [Synth 8-3331] design fix_to_flt_conv_exp has unconnected port A[0]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized53 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized53 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized53 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized53 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized53 has unconnected port SINIT
+WARNING: [Synth 8-3331] design carry_chain__parameterized15 has unconnected port B[11]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized97 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized97 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized97 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized97 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized97 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized25 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized25 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized25 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized25 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized25 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port NORMALIZE[1]
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port FIXED_POINT
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port FIX_MANT_SIGN
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port SIGN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized51 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized51 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized51 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_6_viv__parameterized51 has unconnected port SSET
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 933.195 ; gain = 364.363
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 933.195 ; gain = 364.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 933.195 ; gain = 364.363
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 3434 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ip/design_1_DLU_0_0/constraints/DLU_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ip/design_1_DLU_0_0/constraints/DLU_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.runs/design_1_DLU_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.runs/design_1_DLU_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 1195.352 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 58 instances were transformed.
+  FDE => FDRE: 58 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1213.457 ; gain = 18.105
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1213.457 ; gain = 644.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1213.457 ; gain = 644.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  D:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.runs/design_1_DLU_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:57 ; elapsed = 00:00:59 . Memory (MB): peak = 1213.457 ; gain = 644.625
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'wstate_reg' in module 'DLU_CRTL_BUS_s_axi'
+INFO: [Synth 8-802] inferred FSM for state register 'rstate_reg' in module 'DLU_CRTL_BUS_s_axi'
+INFO: [Synth 8-4471] merging register 'xt_old_0_reg[31:0]' into 'X_0_load_reg_1377_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU.vhd:2572]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+INFO: [Synth 8-3971] The signal "DLU_W_ram:/ram_reg" was recognized as a true dual port RAM template.
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                             0001 |                              011
+*
+                  wridle |                             0010 |                              000
+                  wrdata |                             0100 |                              001
+                  wrresp |                             1000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'wstate_reg' using encoding 'one-hot' in module 'DLU_CRTL_BUS_s_axi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              001 |                              110
+*
+                  rdidle |                              010 |                              100
+                  rddata |                              100 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rstate_reg' using encoding 'one-hot' in module 'DLU_CRTL_BUS_s_axi'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:04 ; elapsed = 00:01:06 . Memory (MB): peak = 1213.457 ; gain = 644.625
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'DLU_faddfsub_32nsbkb:/DLU_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'DLU_faddfsub_32nsbkb:/DLU_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'DLU_faddfsub_32nsbkb:/DLU_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'DLU_faddfsub_32nsbkb:/DLU_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'DLU_faddfsub_32nsbkb:/DLU_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_DELAY' (delay__parameterized0) to 'DLU_faddfsub_32nsbkb:/DLU_ap_faddfsub_3_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.ALIGN_ADD/SUB_ADD_IP_DELAY'
+INFO: [Synth 8-223] decloning instance 'DLU_fmul_32ns_32ncud:/DLU_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'DLU_fmul_32ns_32ncud:/DLU_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'DLU_fmul_32ns_32ncud:/DLU_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized0) to 'DLU_fmul_32ns_32ncud:/DLU_ap_fmul_2_max_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW' (delay__parameterized0) to 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized27) to 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized27) to 'U0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_UNDERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_INVALID_OP' (delay__parameterized0) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized0) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized0) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized27) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized27) to 'U0/DLU_sitofp_32ns_3eOg_U45/DLU_ap_sitofp_4_no_dsp_32_u/U0/i_synth/FIX_TO_FLT_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |DLU__GB0      |           1|     33394|
+|2     |DLU__GB1      |           1|      8976|
+|3     |DLU__GB2      |           1|     10548|
+|4     |DLU__GB3      |           1|     13377|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U41/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U41/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U40/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U40/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U38/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U38/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U36/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U36/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U34/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U34/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U33/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U33/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U32/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U32/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U31/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U31/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U30/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U30/din0_buf1_reg[31:0]' into 'DLU_fmul_32ns_32ncud_U42/din0_buf1_reg[31:0]' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:72]
+INFO: [Synth 8-4471] merging register 'DLU_fmul_32ns_32ncud_U16/ce_r_reg' into 'DLU_fmul_32ns_32ncud_U42/ce_r_reg' [d:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.srcs/sources_1/bd/design_1/ipshared/1f1b/hdl/vhdl/DLU_fmul_32ns_32ncud.vhd:70]
+INFO: [Synth 8-3971] The signal "U0/W_U/DLU_W_ram_U/ram_reg" was recognized as a true dual port RAM template.
+INFO: [Synth 8-3886] merging instance 'U0/i_4_0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/MANT_DIV/MSB_DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/i_4_0/DLU_fdiv_32ns_32ndEe_U44/DLU_ap_fdiv_14_no_dsp_32_u/U0/i_synth/DIV_OP.SPD.OP/MANT_DIV/RT[1].Q_DEL/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_sitofp_32ns_3eOg_U45/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fmul_32ns_32ncud_U29/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fdiv_32ns_32ndEe_U44/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fmul_32ns_32ncud_U43/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fmul_32ns_32ncud_U25/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fmul_32ns_32ncud_U39/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fmul_32ns_32ncud_U23/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fmul_32ns_32ncud_U37/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fmul_32ns_32ncud_U35/ce_r_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_0/DLU_fmul_32ns_32ncud_U15/ce_r_reg)
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__1.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__1.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_1/\DLU_fmul_32ns_32ncud_U42/ce_r_reg )
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__2.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__2.
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[31]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[31]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[31]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U27/din0_buf1_reg[31]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[23]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[24]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[25]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[26]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[27]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[28]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[29]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[30]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[30]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[0]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[1]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[2]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[3]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[4]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[5]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[6]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[7]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[8]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[9]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[10]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[11]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[12]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[13]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[14]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[15]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[16]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[17]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[18]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[19]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[20]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[21]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U17/din0_buf1_reg[22]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[23]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[24]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[25]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[26]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[27]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[28]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[29]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[30]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[30]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[0]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[1]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[2]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[3]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[4]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[5]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[6]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[7]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[8]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[9]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[10]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[11]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[12]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[13]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[14]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[15]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[16]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[17]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[18]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[19]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[20]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[21]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U19/din0_buf1_reg[22]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[23]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[24]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[24]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[25]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[25]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[26]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[26]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[27]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[27]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[28]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[28]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[29]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[29]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[30]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[30]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[0]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[0]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[1]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[2]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[3]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[4]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[4]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[5]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[6]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[6]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[7]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[7]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[8]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[8]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[9]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[9]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[10]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[10]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[11]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[11]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[12]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[12]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[13]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[13]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[14]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[14]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[15]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[15]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[16]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[16]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[17]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[17]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[18]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[18]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[19]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[19]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[20]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[20]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[21]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[21]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U21/din0_buf1_reg[22]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[22]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U27/din0_buf1_reg[23]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[23]'
+INFO: [Synth 8-3886] merging instance 'U0/i_4_2/DLU_fmul_32ns_32ncud_U27/din0_buf1_reg[24]' (FDE) to 'U0/i_4_2/DLU_fmul_32ns_32ncud_U18/din0_buf1_reg[24]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_fmul_32ns_32ncud_U17/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_fmul_32ns_32ncud_U19/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_fmul_32ns_32ncud_U21/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_fmul_32ns_32ncud_U27/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_fmul_32ns_32ncud_U18/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_faddfsub_32nsbkb_U3/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_faddfsub_32nsbkb_U5/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_faddfsub_32nsbkb_U7/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_faddfsub_32nsbkb_U13/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_2/\DLU_faddfsub_32nsbkb_U4/ce_r_reg )
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__3.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__3.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__4.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__4.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__5.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__5.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__6.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__6.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__7.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__7.
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_fmul_32ns_32ncud_U20/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_fmul_32ns_32ncud_U22/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_fmul_32ns_32ncud_U24/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_fmul_32ns_32ncud_U26/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_fmul_32ns_32ncud_U28/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/i_4_3/\DLU_CRTL_BUS_s_axi_U/int_ap_return_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_faddfsub_32nsbkb_U11/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_faddfsub_32nsbkb_U6/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_faddfsub_32nsbkb_U8/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_faddfsub_32nsbkb_U10/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_faddfsub_32nsbkb_U12/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_faddfsub_32nsbkb_U14/ce_r_reg )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (U0/i_4_3/\DLU_faddfsub_32nsbkb_U9/ce_r_reg )
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__8.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__8.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__9.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__9.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__10.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__10.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__11.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__11.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__12.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__12.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv__13.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv__13.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[1]) is unused and will be removed from module floating_point_v7_1_8_viv.
+INFO: [Synth 8-3332] Sequential element (ADDSUB_OP.ADDSUB/DSP.OP/DSP48E1_BODY.NORM_RND/FULL_USAGE_DSP.LOD/dist_norm_reg[0]) is unused and will be removed from module floating_point_v7_1_8_viv.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:49 ; elapsed = 00:01:53 . Memory (MB): peak = 1213.457 ; gain = 644.625
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance U0/i_4_1/i_4_0/W_U/DLU_W_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance U0/i_4_1/i_4_0/W_U/DLU_W_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |DLU__GB0      |           1|     20589|
+|2     |DLU__GB1      |           1|      6234|
+|3     |DLU__GB2      |           1|      9266|
+|4     |DLU__GB3      |           1|     11359|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:06 ; elapsed = 00:02:10 . Memory (MB): peak = 1213.457 ; gain = 644.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:18 ; elapsed = 00:02:22 . Memory (MB): peak = 1213.457 ; gain = 644.625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |DLU__GB0      |           1|     20589|
+|2     |DLU__GB1      |           1|      6234|
+|3     |DLU__GB2      |           1|      9266|
+|4     |DLU__GB3      |           1|     11359|
++------+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance U0/W_U/DLU_W_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-6837] The timing for the instance U0/W_U/DLU_W_ram_U/ram_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:37 ; elapsed = 00:02:41 . Memory (MB): peak = 1213.457 ; gain = 644.625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:43 ; elapsed = 00:02:47 . Memory (MB): peak = 1218.281 ; gain = 649.449
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:43 ; elapsed = 00:02:48 . Memory (MB): peak = 1218.281 ; gain = 649.449
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:50 ; elapsed = 00:02:54 . Memory (MB): peak = 1218.281 ; gain = 649.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:50 ; elapsed = 00:02:55 . Memory (MB): peak = 1218.281 ; gain = 649.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:52 ; elapsed = 00:02:56 . Memory (MB): peak = 1221.480 ; gain = 652.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:52 ; elapsed = 00:02:57 . Memory (MB): peak = 1221.480 ; gain = 652.648
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |CARRY4    |    77|
+|2     |DSP48E1   |    14|
+|3     |DSP48E1_1 |    14|
+|4     |DSP48E1_2 |    29|
+|5     |DSP48E1_3 |    29|
+|6     |DSP48E1_4 |    29|
+|7     |LUT1      |    71|
+|8     |LUT2      |   891|
+|9     |LUT3      |  3556|
+|10    |LUT4      |  1557|
+|11    |LUT5      |  1802|
+|12    |LUT6      |  3061|
+|13    |MUXCY     |  2011|
+|14    |MUXF7     |    10|
+|15    |RAMB36E1  |     1|
+|16    |SRL16E    |    35|
+|17    |XORCY     |  1207|
+|18    |FDE       |    58|
+|19    |FDRE      | 10075|
+|20    |FDSE      |     1|
++------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:52 ; elapsed = 00:02:57 . Memory (MB): peak = 1221.480 ; gain = 652.648
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:02 ; elapsed = 00:02:36 . Memory (MB): peak = 1221.480 ; gain = 372.387
+Synthesis Optimization Complete : Time (s): cpu = 00:02:53 ; elapsed = 00:02:57 . Memory (MB): peak = 1221.480 ; gain = 652.648
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 3479 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1246.309 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 609 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 551 instances
+  FDE => FDRE: 58 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+414 Infos, 105 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:14 ; elapsed = 00:03:19 . Memory (MB): peak = 1246.309 ; gain = 947.328
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1246.309 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.runs/design_1_DLU_0_0_synth_1/design_1_DLU_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1246.309 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1246.309 ; gain = 0.000
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_DLU_0_0, cache-ID = 2757e83a9db2902b
+INFO: [Coretcl 2-1174] Renamed 2086 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1246.309 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.runs/design_1_DLU_0_0_synth_1/design_1_DLU_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1246.309 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file design_1_DLU_0_0_utilization_synth.rpt -pb design_1_DLU_0_0_utilization_synth.pb
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 1246.309 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 24 02:20:55 2020...

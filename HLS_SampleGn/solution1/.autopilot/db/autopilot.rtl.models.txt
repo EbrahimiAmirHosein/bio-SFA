@@ -1,0 +1,7 @@
+DLU_faddfsub_32nsbkb
+DLU_fmul_32ns_32ncud
+DLU_fdiv_32ns_32ndEe
+DLU_sitofp_32ns_3eOg
+DLU_W
+DLU_CRTL_BUS_s_axi
+DLU

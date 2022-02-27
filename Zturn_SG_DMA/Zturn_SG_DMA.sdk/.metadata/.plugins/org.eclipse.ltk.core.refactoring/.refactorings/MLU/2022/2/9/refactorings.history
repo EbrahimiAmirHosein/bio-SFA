@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MLU/src/AxiTimerHelper.cpp&apos; to &apos;AxiTimerHelper.c&apos;" description="Rename resource &apos;AxiTimerHelper.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/AxiTimerHelper.cpp" name="AxiTimerHelper.c" stamp="1645564205972" updateReferences="true"/>
+</session>

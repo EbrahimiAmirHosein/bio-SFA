@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;MLU/src/helloworld.c&apos;" deleteContents="false" description="Delete resource &apos;MLU/src/helloworld.c&apos;" element1="/MLU/src/helloworld.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1645391234623"/>&#x0A;<refactoring comment="Delete resource &apos;ARM_Only_bsp&apos;" deleteContents="true" description="Delete resource &apos;ARM_Only_bsp&apos;" element1="/ARM_Only_bsp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1645744293152"/>
+</session>

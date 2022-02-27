@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Tue Feb 22 17:46:01 2022
+# Process ID: 7860
+# Current directory: D:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.sdk/webtalk/webtalk.log
+# Journal file: D:/MLU/Zturn_SG_DMA/Zturn_SG_DMA.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

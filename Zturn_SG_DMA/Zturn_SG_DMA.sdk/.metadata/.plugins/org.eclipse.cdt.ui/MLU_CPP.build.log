@@ -1,0 +1,25 @@
+20:14:18 **** Auto Build of configuration Debug for project MLU_CPP ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.cc'
+'Invoking: ARM v7 g++ compiler'
+arm-none-eabi-g++ -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../MLU_CPP_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.cc"
+../src/main.cc:61:1: warning: 'typedef' was ignored in this declaration
+ typedef union floatToU32{
+ ^~~~~~~
+../src/main.cc: In function 'int initDRAM(u32)':
+../src/main.cc:301:11: warning: comparison of integer expressions of different signedness: 'int' and 'long unsigned int' [-Wsign-compare]
+  for(i=0;i<rows*col;i++){
+           ^
+../src/main.cc:305:10: warning: format '%d' expects argument of type 'int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
+   printf("F= %f U32=%d  F= %f\r\n", xt[i], u, f);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~         ~
+../src/main.cc: In function 'int main()':
+../src/main.cc:402:5: error: 'Xil_DCacheFlush' was not declared in this scope
+     Xil_DCacheFlush();
+     ^~~~~~~~~~~~~~~
+make: *** [src/subdir.mk:30: src/main.o] Error 1
+
+20:14:19 Build Finished (took 353ms)
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'M' will not be exposed as RTL port." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:32.096+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'M' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:32.063+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_13' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:32.030+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_13' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.999+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_12' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.970+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_12' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.941+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_11' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.911+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_11' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.883+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_10' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.854+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_10' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.818+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_9' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.786+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_9' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.755+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_8' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.724+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_8' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.691+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_7' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.660+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_7' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.627+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_6' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.607+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_6' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.590+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_5' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.572+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_5' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.550+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_4' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.532+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_4' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.512+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_3' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.492+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_3' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.474+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_2' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.458+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_2' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.441+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_1' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.424+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_1' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.407+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'xt_old_0' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.389+0330" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'X_0' is power-on initialization." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:31.371+0330" type="Warning"/>
+        <logs message="WARNING: [SYN 201-107] Renaming port name 'DLU/loop' to 'DLU/loop_r' to avoid the conflict with HDL keywords or other object names." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:28.926+0330" type="Warning"/>
+        <logs message="WARNING: [HLS 200-40] In file included from HLS_SampleGn/core.cpp:1:&#xD;&#xA;HLS_SampleGn/core.cpp:11:1: warning: declaration does not declare anything [-Wmissing-declarations]&#xD;&#xA;typedef union floatToU32{&#xD;&#xA;^~~~~~~&#xD;&#xA;1 warning generated." projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:12:21.818+0330" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'DLU_ap_faddfsub_3_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.&#xD;&#xA;create_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 311.734 ; gain = 12.770" projectName="HLS_SampleGn" solutionName="solution1" date="2020-02-24T02:13:08.544+0330" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

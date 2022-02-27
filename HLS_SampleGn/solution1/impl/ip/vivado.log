@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Feb 24 02:12:55 2020
+# Process ID: 15068
+# Current directory: D:/MLU/HLS_SampleGn/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: D:/MLU/HLS_SampleGn/solution1/impl/ip/vivado.log
+# Journal file: D:/MLU/HLS_SampleGn/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-4832] The IP name 'DLU_ap_faddfsub_3_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues.
+create_ip: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 311.734 ; gain = 12.770
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'DLU_ap_faddfsub_3_full_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'DLU_ap_faddfsub_3_full_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'DLU_ap_fdiv_14_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'DLU_ap_fdiv_14_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'DLU_ap_fmul_2_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'DLU_ap_fmul_2_max_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'DLU_ap_sitofp_4_no_dsp_32'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'DLU_ap_sitofp_4_no_dsp_32'...
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 24 02:13:26 2020...
